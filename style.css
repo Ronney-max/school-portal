@@ -1,0 +1,60 @@
+body{
+    background-color: moccasin;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+ header{
+    background-color: blanchedalmond;
+    color: gray;
+    padding: 1rem 0;
+    text-align: center;
+ /* 
+    border-radius: 10px;
+    border-style: solid; 
+    border-width: 15px; 
+    border-color: brown; 
+ */
+}
+
+header > h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    color: rgb(23, 199, 146);
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: blanchedalmond;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[ type="text"] {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
